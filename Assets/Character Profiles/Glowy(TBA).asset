@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519be3fde50ced498f15d08934a47fb, type: 3}
+  m_Name: Glowy(TBA)
+  m_EditorClassIdentifier: 
+  characterName: Glowy
+  voice: {fileID: 0}
+  isPortraitLeft: 0
+  characterAOC: {fileID: 22100000, guid: 9264897160548fe46962a4a83758cf8d, type: 2}
+  emotionPortraits:
+    standard: {fileID: 5619294242354470455, guid: 27ab4f0f250d66b43af11038b0185f8d,
+      type: 3}
+    happy: {fileID: -3078299115854011265, guid: 27ab4f0f250d66b43af11038b0185f8d,
+      type: 3}
+    annoyed: {fileID: -31933606955632010, guid: 27ab4f0f250d66b43af11038b0185f8d,
+      type: 3}
+    reluctant: {fileID: 0}
+    embarrassed: {fileID: 0}
+    scared: {fileID: 0}
+    shocked: {fileID: 0}
+    sad: {fileID: 0}
+    serious: {fileID: 0}
+    inquisitive: {fileID: 0}
+    confused: {fileID: 0}

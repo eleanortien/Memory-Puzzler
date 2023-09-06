@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d0182ce356ca044b80e6a49f423f401, type: 3}
+  m_Name: OpenDoor
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: 562cda6b8bb321a4c987302d8c530562, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: Well the door is finally open!
+  - character: {fileID: 11400000, guid: b52d8c33c3f630d41a7d3fc4f4f8b6fb, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: A-are we goint to the next trial then?
+  - character: {fileID: 11400000, guid: 562cda6b8bb321a4c987302d8c530562, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: Hmm, like the last area, I feel like if we leave now we will never
+      be able to come back. So, we better decide wisely.
+  nextCommonDialogue: {fileID: 0}
+  questionText: Leave to next trial? (You can't return.)
+  optionsInfo:
+  - buttonName: Yes
+    optionEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: af5c063fe6d67344a98477bf829838e1, type: 2}
+          m_TargetAssemblyTypeName: EventBehaviour, Assembly-CSharp
+          m_MethodName: NewArea
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - buttonName: No
+    optionEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 93aa56cea77753544954a9bec2c325f4, type: 2}
+          m_TargetAssemblyTypeName: EventBehaviour, Assembly-CSharp
+          m_MethodName: DialogueEvent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  nextDialogue: {fileID: 0}

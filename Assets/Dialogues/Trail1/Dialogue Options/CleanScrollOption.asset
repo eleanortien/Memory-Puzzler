@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d0182ce356ca044b80e6a49f423f401, type: 3}
+  m_Name: CleanScrollOption
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: 562cda6b8bb321a4c987302d8c530562, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: 'Water flows soothingly out of that yellow pipe. I have no idea
+      where that pipe is connected to or where the water comes from. '
+  - character: {fileID: 11400000, guid: b52d8c33c3f630d41a7d3fc4f4f8b6fb, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: U-um, that scroll we found. Perhaps we could clean it here?
+  - character: {fileID: 11400000, guid: 562cda6b8bb321a4c987302d8c530562, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: Wouldn't the water destroy the scroll though?
+  - character: {fileID: 11400000, guid: b52d8c33c3f630d41a7d3fc4f4f8b6fb, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: I-it w-won't hurt to try! P-Please trust me!
+  - character: {fileID: 11400000, guid: 562cda6b8bb321a4c987302d8c530562, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: .....
+  nextCommonDialogue: {fileID: 0}
+  questionText: Clean the dirty scroll in the water?
+  optionsInfo:
+  - buttonName: Yes
+    optionEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 08c65be9a5668cf48a43867ab2fd3946, type: 2}
+          m_TargetAssemblyTypeName: EventBehaviour, Assembly-CSharp
+          m_MethodName: LooseItem
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: 08c65be9a5668cf48a43867ab2fd3946, type: 2}
+          m_TargetAssemblyTypeName: EventBehaviour, Assembly-CSharp
+          m_MethodName: DialogueEvent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: 08c65be9a5668cf48a43867ab2fd3946, type: 2}
+          m_TargetAssemblyTypeName: EventBehaviour, Assembly-CSharp
+          m_MethodName: GainItem
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - buttonName: No
+    optionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  nextDialogue: {fileID: 0}

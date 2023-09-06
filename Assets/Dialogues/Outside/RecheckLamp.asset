@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d615d0e8bd141d4daca5d38d7660025, type: 3}
+  m_Name: RecheckLamp
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: 562cda6b8bb321a4c987302d8c530562, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: A lamp alter with blue beautifully brilliant lamps.
+  - character: {fileID: 11400000, guid: b52d8c33c3f630d41a7d3fc4f4f8b6fb, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: Ah, the memories... this is where I met you!
+  - character: {fileID: 11400000, guid: 562cda6b8bb321a4c987302d8c530562, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: That was literally five seconds ago.
+  - character: {fileID: 11400000, guid: b52d8c33c3f630d41a7d3fc4f4f8b6fb, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: You gave me your name here, even though you said you don't give
+      your name to strangers...
+  - character: {fileID: 11400000, guid: b52d8c33c3f630d41a7d3fc4f4f8b6fb, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: So that means we must be friends! Yay! Memory! My friend!
+  - character: {fileID: 11400000, guid: 562cda6b8bb321a4c987302d8c530562, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: 'W-wait, just a name isn''t enough to be... '
+  - character: {fileID: 11400000, guid: b52d8c33c3f630d41a7d3fc4f4f8b6fb, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: You're my first friend I've ever had! We can do friend-stuff together!
+  - character: {fileID: 11400000, guid: b52d8c33c3f630d41a7d3fc4f4f8b6fb, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: ....Wait, did you say something? S-sorry, I was just so happy...
+  - character: {fileID: 11400000, guid: 562cda6b8bb321a4c987302d8c530562, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: '....N-nevermind, it was nothing.
+
+      (Geez, they''re like
+      an innocent child. I don''t want to make them sad, they haven''t done anything
+      bad to me yet.)'
+  nextCommonDialogue: {fileID: 0}

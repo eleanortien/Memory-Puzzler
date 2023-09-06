@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e33503c94d1e7b49a41b13bde99f8ba, type: 3}
+  m_Name: GetCleanScroll
+  m_EditorClassIdentifier: 
+  responseDialogue: {fileID: 11400000, guid: 37f0f7e1938f611418a70db0b02737cf, type: 2}
+  gainableItem: {fileID: 11400000, guid: fdffc7630c4360a4cacfac6c6b21c286, type: 2}
+  useableItem: {fileID: 11400000, guid: 3c2bd25835eae674aac2b7fffd7cf7a5, type: 2}
+  newSceneName: 
+  interactedObject: {fileID: 0}
+  newSprite: {fileID: 0}

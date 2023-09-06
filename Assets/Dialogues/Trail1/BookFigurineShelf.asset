@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d615d0e8bd141d4daca5d38d7660025, type: 3}
+  m_Name: BookFigurineShelf
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: 562cda6b8bb321a4c987302d8c530562, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: A bookshelf.
+  - character: {fileID: 11400000, guid: b52d8c33c3f630d41a7d3fc4f4f8b6fb, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: A shelf of books!
+  - character: {fileID: 11400000, guid: 562cda6b8bb321a4c987302d8c530562, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: The books are scattered and disorganised. There's even some kid's
+      action figures and toy cars placed here.
+  - character: {fileID: 11400000, guid: 562cda6b8bb321a4c987302d8c530562, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: The shelf is a disaster. The toy car has scattered a bunch of
+      figurines onto the books. Whoever's bookshelf this is, they must be a slob.
+  - character: {fileID: 11400000, guid: 562cda6b8bb321a4c987302d8c530562, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: ...It does feel somewhat familiar though.
+  - character: {fileID: 11400000, guid: b52d8c33c3f630d41a7d3fc4f4f8b6fb, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: Y-you're looking at those books quite a bit. D-do you like reading?
+  - character: {fileID: 11400000, guid: 562cda6b8bb321a4c987302d8c530562, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: Actually, yeah I do. If there wasn't a trial to do, I would've
+      sat here and read.
+  - character: {fileID: 11400000, guid: b52d8c33c3f630d41a7d3fc4f4f8b6fb, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: I-if we ever have time after the trials... c-can you read one
+      to me? I-I've never read a book before...
+  - character: {fileID: 11400000, guid: 562cda6b8bb321a4c987302d8c530562, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: Sure thing. It's a promise then.
+  - character: {fileID: 11400000, guid: b52d8c33c3f630d41a7d3fc4f4f8b6fb, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: Y-yeah! Thanks!
+  nextCommonDialogue: {fileID: 0}

@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d0182ce356ca044b80e6a49f423f401, type: 3}
+  m_Name: LampAlterFirstDialogue
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: 562cda6b8bb321a4c987302d8c530562, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: This seems to be some sort of alter.
+  - character: {fileID: 11400000, guid: 562cda6b8bb321a4c987302d8c530562, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: A lot of lamps are below, they glow brightly and seem important.
+  - character: {fileID: 11400000, guid: 562cda6b8bb321a4c987302d8c530562, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: 'I don''t know why, but I get the absurd feeling that I''m going
+      to have to do something crazy here. '
+  - character: {fileID: 11400000, guid: 562cda6b8bb321a4c987302d8c530562, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: Oh well, I don't see anything else around here, I might as well.
+  nextCommonDialogue: {fileID: 0}
+  questionText: What should I do at the alter?
+  optionsInfo:
+  - buttonName: Open a lamp
+    optionEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 8a74d2142e4172f4b9381bc005f6c185, type: 2}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: DialogueEvent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: 8a74d2142e4172f4b9381bc005f6c185, type: 2}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: GainItem
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  nextDialogue: {fileID: 0}

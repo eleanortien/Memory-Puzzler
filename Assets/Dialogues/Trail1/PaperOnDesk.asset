@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d615d0e8bd141d4daca5d38d7660025, type: 3}
+  m_Name: PaperOnDesk
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: 562cda6b8bb321a4c987302d8c530562, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: A piece of paper on an old desk. The candle next to it adds a
+      warm lighting.
+  - character: {fileID: 11400000, guid: b52d8c33c3f630d41a7d3fc4f4f8b6fb, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: W-what does the paper say?
+  - character: {fileID: 11400000, guid: 562cda6b8bb321a4c987302d8c530562, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: Hmm... 'Cleanse the sins with holy water.'
+  - character: {fileID: 11400000, guid: b52d8c33c3f630d41a7d3fc4f4f8b6fb, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: ...W-what are sins?
+  - character: {fileID: 11400000, guid: 562cda6b8bb321a4c987302d8c530562, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: T-they're like the bad actions people have done.  Sorry, I'm not
+      too good at explaining.
+  - character: {fileID: 11400000, guid: b52d8c33c3f630d41a7d3fc4f4f8b6fb, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: That's okay, I think I understand!
+  - character: {fileID: 11400000, guid: 562cda6b8bb321a4c987302d8c530562, type: 2}
+    characterEmotion: 0
+    hasImage: 0
+    cutsceneImage: {fileID: 0}
+    dialogueLines: (Still, talking about sins makes this trial seem a bit shady.
+      Could the holy water it mentioned be the pond on the left?)
+  nextCommonDialogue: {fileID: 0}

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d615d0e8bd141d4daca5d38d7660025, type: 3}
+  m_Name: FirstPictureFrame
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: 562cda6b8bb321a4c987302d8c530562, type: 2}
+    characterEmotion: 0
+    hasImage: 1
+    cutsceneImage: {fileID: 21300000, guid: a0187cc249c0c064480cd25f96cd8112, type: 3}
+    dialogueLines: A pretty outdoor landscape with animals.
+  - character: {fileID: 11400000, guid: b52d8c33c3f630d41a7d3fc4f4f8b6fb, type: 2}
+    characterEmotion: 0
+    hasImage: 1
+    cutsceneImage: {fileID: 21300000, guid: a0187cc249c0c064480cd25f96cd8112, type: 3}
+    dialogueLines: Ooh what cute animal is that there?
+  - character: {fileID: 11400000, guid: 562cda6b8bb321a4c987302d8c530562, type: 2}
+    characterEmotion: 0
+    hasImage: 1
+    cutsceneImage: {fileID: 21300000, guid: a0187cc249c0c064480cd25f96cd8112, type: 3}
+    dialogueLines: That's a bird. There's three of them. Here, here, and here.
+  - character: {fileID: 11400000, guid: b52d8c33c3f630d41a7d3fc4f4f8b6fb, type: 2}
+    characterEmotion: 0
+    hasImage: 1
+    cutsceneImage: {fileID: 21300000, guid: a0187cc249c0c064480cd25f96cd8112, type: 3}
+    dialogueLines: Hehe, I think they're my favourite animal. They're tiny and float,
+      just like me!
+  - character: {fileID: 11400000, guid: 562cda6b8bb321a4c987302d8c530562, type: 2}
+    characterEmotion: 0
+    hasImage: 1
+    cutsceneImage: {fileID: 21300000, guid: a0187cc249c0c064480cd25f96cd8112, type: 3}
+    dialogueLines: (They're flying, not floating. And I'm not even sure what you
+      are Glowy. ...Though I'm not going to say this out loud.)
+  nextCommonDialogue: {fileID: 0}
